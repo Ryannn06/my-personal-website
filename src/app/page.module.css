@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+
+}
+
+.active {
+    height: auto;
+}
+
