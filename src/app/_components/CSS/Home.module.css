@@ -117,7 +117,7 @@
 .aboutme_container {
 	padding: 5rem 10rem 5rem 10rem;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 	gap: 2.5rem;
 
 }
@@ -146,13 +146,13 @@
 	text-align: left;
 }
 
-.myproject_container > div:nth-child(2) {
+.myproject_container > div:nth-of-type(2) {
 	/*display:  grid;
 	grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr));
 	gap: 5rem 2.5rem;*/
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-	gap: 2.5rem 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 5rem 1rem;
 }
 
 .project_button {
@@ -175,7 +175,7 @@
 .cards {
 	display: flex;
 	flex-direction: column;
-	gap: .5rem;
+	gap: 1rem;
 	width: 100%;
 	position: relative;
 }
@@ -183,7 +183,6 @@
 .cards_text {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	gap: 1rem;
 	width: 100%;
 }
@@ -191,20 +190,13 @@
 .cards_text > div:nth-of-type(1){
 	display: flex;
 	flex-direction: column;
-	gap: .25rem;
-}
-
-.cards_text > div:nth-of-type(1) > div {
-	display: flex;
-	gap: 1rem;
-	align-items: flex-end;
+	gap: .5rem;
 }
 
 .cards_image {
 	position: relative;
 	min-height: 50dvh;
 	width: 100%;
-	border-radius: 10px;
 	padding: 2.5rem 2.5rem 0rem 2.5rem;
 }
 
@@ -358,7 +350,7 @@
 	.myproject_container > div:nth-child(2) {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-		gap: 2.5rem 1rem;
+		gap: 5rem 1rem;
 	}
 
 }
@@ -406,6 +398,10 @@
 
 	.hero_container > div:nth-of-type(1) > div:nth-of-type(1){
 		width: 100%;
+	}
+
+	.visible_card {
+		min-height: 35dvh;
 	}
 
 }
@@ -477,8 +473,12 @@
 		width: 100%;
 	}
 
-	.cards_text {
-		flex-direction: row;
+	.myproject_container > div:nth-of-type(2){
+		gap: 2.5rem;
+	}
+
+	.visible_card {
+		min-height: 30dvh;
 	}
 
 	.invisible_card {

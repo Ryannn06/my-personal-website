@@ -1,8 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Work_Sans } from 'next/font/google'
 
-const inter = Inter ({ 
+const inter = Work_Sans ({ 
     subsets: ['latin'],
     weight:['300','400','500','700', '900'],
     variable: '--font-spspace-groteskrotesk',

@@ -59,18 +59,6 @@ const Navbar = () => {
 						<h4>What I do</h4>
 					</Link>
 					<Link href="#my_contacts" onClick={closeNavbar} className={styles.navbar_links}>
-						<h6>01</h6>
-						<h4>My works</h4>
-					</Link>
-					<Link href="#my_works" onClick={closeNavbar} className={styles.navbar_links}>
-						<h6>02</h6>
-						<h4>About me</h4>
-					</Link>
-					<Link href="#my_contacts" onClick={closeNavbar} className={styles.navbar_links}>
-						<h6>03</h6>
-						<h4>What I do</h4>
-					</Link>
-					<Link href="#my_contacts" onClick={closeNavbar} className={styles.navbar_links}>
 						<h6>04</h6>
 						<h4>Tools</h4>
 					</Link>
