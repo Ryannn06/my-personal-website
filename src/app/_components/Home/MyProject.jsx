@@ -61,7 +61,7 @@ const MyProject = () => {
 								</div>
 								<div className={styles.project_button}>
 										<Link href={data.github_link} target="_blank" className={styles.project_button_link}>
-											<Image src="/icons/arrow-right.svg" width="25" height="25" />
+											<Image src="/icons/arrow-right.svg" width="25" height="25" alt="arrow-right.svg" />
 										</Link>
 								</div>
 							</div>
