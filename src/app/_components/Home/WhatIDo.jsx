@@ -46,7 +46,7 @@ const WhatIDo = () => {
 						return(
 							<div key={index}>
 								<div>
-									<Image src={`/icons/${data.image}`} width="80" height="80" />
+									<Image src={`/icons/${data.image}`} width="80" height="80" alt={data.image}/>
 								</div>
 								<div>
 									<h5>{data.title}</h5>
