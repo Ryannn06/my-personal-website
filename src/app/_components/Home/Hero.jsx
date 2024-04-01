@@ -14,7 +14,7 @@ const Hero = () => {
 						<div className={styles.hero_button}>
 							<Link href="mailto:ryanangelo.delacruz12@gmail.com" className={styles.hero_button_link}>
 								<h6>drop me a line</h6>
-								<Image src="/icons/arrow-right.svg" width="20" height="20" />
+								<Image src="/icons/arrow-right.svg" width="20" height="20" alt="arrow-right.svg"/>
 							</Link>
 						</div>
 						
