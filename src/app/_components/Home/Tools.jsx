@@ -107,7 +107,7 @@ const Tools = () => {
 						data.title != "null" ? (
 							<div className={styles.visible_card} key={index}>
 								<div>
-									<Image src="/icons/bxs-circle.svg" width="12" height="12" />
+									<Image src="/icons/bxs-circle.svg" width="12" height="12" alt="bxs-circle.svg" />
 								</div>
 								<div>
 									<h5>{data.title}</h5>
