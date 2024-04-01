@@ -14,7 +14,7 @@ const ContactMe = () => {
 						<div className={styles.contact_button}>
 							<Link href="emailto:ryanangelo.delacruz12@gmail.com" className={styles.contact_button_link}>
 								<h6>ryanangelo.delacruz12@gmail.com</h6>
-								<Image src="/icons/arrow-right.svg" width="25" height="25" />
+								<Image src="/icons/arrow-right.svg" width="25" height="25" alt="arrow-right.svg" />
 							</Link>
 						</div>
 					</div>
