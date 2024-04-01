@@ -46,7 +46,6 @@ const MyProject = () => {
 						<div className={styles.cards} key={index}>
 							<div className={styles.cards_image} style={{ "backgroundColor": `${data.bg_color}` }}>
 								<Image src={`/images/${data.image}`} 
-									style={{objectFit: "cover"}}
 									style={{objectFit: "contain"}}
 									fill
 									alt={data.image}
