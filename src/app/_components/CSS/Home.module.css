@@ -151,7 +151,7 @@
 	grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr));
 	gap: 5rem 2.5rem;*/
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 2.5rem 1rem;
 }
 
@@ -182,8 +182,9 @@
 
 .cards_text {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
-	gap: 2.5rem;
+	gap: 1.5rem;
 	width: 100%;
 }
 
@@ -356,7 +357,7 @@
 
 	.myproject_container > div:nth-child(2) {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 		gap: 2.5rem 1rem;
 	}
 
