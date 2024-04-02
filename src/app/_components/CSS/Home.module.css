@@ -117,7 +117,7 @@
 .aboutme_container {
 	padding: 5rem 10rem 5rem 10rem;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	gap: 2.5rem;
 
 }
@@ -184,7 +184,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	gap: 1.5rem;
+	gap: 1rem;
 	width: 100%;
 }
 
