@@ -10,14 +10,14 @@ import { useEffect, useState } from 'react'
 const projectArray = [
 	{
 		title: "Thesis Archive",
-		description: "Website/ Django/ MySQL",
+		description: "A digital thesis archive built in Django and MySQL",
 		github_link: "https://github.com/Ryannn06/DIGITAL-THESIS-ARCHIVE",
 		bg_color: "#ff6961",
 		image:"Thesis_archive.svg",
 	},
 	{
 		title: "Plant.co",
-		description: "Website/ Nextjs/ Firebase",
+		description: "A plant service website built in Nextjs",
 		github_link: "https://github.com/Ryannn06/DIGITAL-THESIS-ARCHIVE",
 		bg_color: "#add0b3",
 		image: "Plantco.svg"
@@ -25,7 +25,7 @@ const projectArray = [
 	
 	{
 		title: "Paws",
-		description: "Website/ Nextjs/ Firebase",
+		description: "A pet center website built in Nextjs and Firebase",
 		github_link: "#",
 		bg_color: "#ffd1dc",
 	},
