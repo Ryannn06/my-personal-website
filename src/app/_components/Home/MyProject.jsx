@@ -13,14 +13,14 @@ const projectArray = [
 		description: "A digital thesis archive built in Django and MySQL",
 		github_link: "https://github.com/Ryannn06/DIGITAL-THESIS-ARCHIVE",
 		bg_color: "#ff6961",
-		image:"Thesis_archive.svg",
+		image:"Thesis_archive.png",
 	},
 	{
 		title: "Plant.co",
 		description: "A plant service website built in Nextjs",
 		github_link: "https://github.com/Ryannn06/DIGITAL-THESIS-ARCHIVE",
 		bg_color: "#add0b3",
-		image: "Plantco.svg"
+		image: "Plantco.png"
 	},
 	
 	{
