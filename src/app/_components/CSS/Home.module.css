@@ -146,9 +146,10 @@
 	overflow-wrap: break-word;
    	word-wrap: break-word; 
    	word-break: break-all;
+   	word-break: break-word;
    	line-break: strict;
    	hyphens: none;
-   	max-width: 100%;
+   	width: 100%;
    	white-space: break-spaces;
 }
 
