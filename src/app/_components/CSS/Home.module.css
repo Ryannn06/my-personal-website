@@ -119,7 +119,10 @@
 	display: flex;
 	justify-content: space-between;
 	gap: 2.5rem;
+}
 
+.aboutme_container > div{
+	width: 50%;
 }
 
 .aboutme_container > div:nth-of-type(2) {
@@ -224,6 +227,10 @@
 	display: flex;
 	justify-content: space-between;
 	gap: 2.5rem;
+}
+
+.whatido_container > div {
+	width: 50%;
 }
 
 .whatido_container > div:nth-of-type(2) {
@@ -503,6 +510,14 @@
 
 	.invisible_card {
 		display: none;
+	}
+
+	.aboutme_container > div{
+		width: 100%;
+	}
+
+	.whatido_container > div {
+		width: 100%;
 	}
 
 	.tools_container > div:nth-child(1) > div {
