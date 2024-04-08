@@ -49,8 +49,8 @@ const ContactMe = () => {
 				<div>
 					<h6>03</h6>
 					<div>
-						<Link href="https://discord.app/com/users/geloo_c" target="_blank"><p>Discord</p></Link>
-						<Link href="https://www.linkedin.com/in/gelo-oc12"><p>Linkedin</p></Link>
+						<Link href="https://discord.com/users/geloo_c" target="_blank"><p>Discord</p></Link>
+						<Link href="https://www.linkedin.com/in/gelo-oc12" target="_blank"><p>Linkedin</p></Link>
 						<Link href="https://github.com/Ryannn06" target="_blank"><p>Github</p></Link>
 					</div>
 				</div>
