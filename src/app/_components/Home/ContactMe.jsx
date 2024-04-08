@@ -8,7 +8,7 @@ const ContactMe = () => {
 			<div>
 				<div>
 					<div>
-						<h1>The best way to reach me is via email</h1>
+						<h2>The best way to reach me is via email</h2>
 					</div>
 					<div className={styles.contact_button_container}>
 						<div className={styles.contact_button}>
