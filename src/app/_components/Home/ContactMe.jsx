@@ -13,7 +13,7 @@ const ContactMe = () => {
 					<div className={styles.contact_button_container}>
 						<div className={styles.contact_button}>
 							<Link href="mailto:ryanangelo.delacruz12@gmail.com" target="_blank" className={styles.contact_button_link}>
-								<h6>ryanangelo.delacruz12@gmail.com</h6>
+								<h6>drop me a line</h6>
 								<Image src="/icons/arrow-right.svg" width="25" height="25" alt="arrow-right.svg" />
 							</Link>
 						</div>
