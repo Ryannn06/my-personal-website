@@ -116,8 +116,8 @@
 
 .aboutme_container {
 	padding: 5rem 10rem 5rem 10rem;
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	display: flex;
+	justify-content: space-between;
 	gap: 2.5rem;
 
 }
@@ -453,6 +453,7 @@
 
 	.aboutme_container {
 		padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+		flex-direction: column;
 	}
 
 	.myproject_container {
