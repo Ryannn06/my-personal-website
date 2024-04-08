@@ -27,9 +27,6 @@ const AboutMe = () => {
 						build digital experiences that offer functionality and purpose to people
 						through development and design. On my free time, I build websites and listen to mellow music.
 						<br></br><br></br>
-						Based in the Philippines with specialization in full stack web development, I 
-						build digital experiences that offer functionality and purpose to people
-						through development and design. On my free time, I build websites and listen to mellow music.
 						
 					</p>
 				</div>
