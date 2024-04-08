@@ -1,5 +1,5 @@
 .navbar_container {
-	padding: 2.5rem 5rem 0rem 5rem;
+	padding: 2.5rem 10rem 0rem 10rem;
 	display: flex;
 	justify-content: space-between;
 }
@@ -426,7 +426,7 @@
 
 @media only screen and (max-width: 768px) {
 	.navbar_container {
-		padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+		padding: 1.5rem 2.5rem 2.5rem 2.5rem;
 	}
 
 	.hero_container {
