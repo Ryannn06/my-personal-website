@@ -339,6 +339,8 @@
 	border:1px solid #779ac5;
 	padding: .75rem 1rem .75rem 1rem;
 	border-radius: 25px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 .contact_button_link {
