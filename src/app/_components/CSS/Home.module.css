@@ -140,7 +140,8 @@
 .aboutme_container > div:nth-of-type(2) > div:nth-of-type(2) {
 	display: inline-block;
    	word-wrap: break-word; 
-   	width: 100%;
+   	max-width: 100px;
+   	white-space: break-spaces;
 }
 
 .myproject_container {
