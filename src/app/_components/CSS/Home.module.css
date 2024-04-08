@@ -142,8 +142,12 @@
 }
 
 .aboutme_container > div:nth-of-type(2) > div:nth-of-type(2) {
-	display: block;
+	display: inline-block;
+	overflow-wrap: break-word;
    	word-wrap: break-word; 
+   	word-break: normal;
+   	line-break: strict;
+   	hyphens: none;
    	max-width: 100%;
    	white-space: break-spaces;
 }
