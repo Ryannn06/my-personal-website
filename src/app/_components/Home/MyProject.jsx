@@ -11,14 +11,14 @@ const projectArray = [
 	{
 		title: "Thesis Archive",
 		description: "A digital thesis archive built in Django and MySQL",
-		github_link: "https://github.com/Ryannn06/DIGITAL-THESIS-ARCHIVE",
+		github_link: "https://github.com/Ryannn06/DIGITAL-THESIS-ARCHIVE-DJANGO-PROJECT",
 		bg_color: "#ff6961",
 		image:"Thesis_archive2.svg",
 	},
 	{
 		title: "Plant.co",
 		description: "A plant service website built in Nextjs",
-		github_link: "https://github.com/Ryannn06/DIGITAL-THESIS-ARCHIVE",
+		github_link: "https://github.com/Ryannn06/Plant.co",
 		bg_color: "#add0b3",
 		image: "Plantco.svg"
 	},
@@ -35,7 +35,7 @@ const MyProject = () => {
 	const [ project, setProject ] = useState(projectArray);
 
 	return (
-		<div className={styles.myproject_container}>
+		<div className={styles.myproject_container} id="my_works">
 			<div>
 				<h6>01/</h6>
 				<h3>Selected works</h3>
@@ -46,7 +46,7 @@ const MyProject = () => {
 						<div className={styles.cards} key={index}>
 							<div className={styles.cards_image} style={{ "backgroundColor": `${data.bg_color}` }}>
 								<Image src={`/images/${data.image}`} 
-									style={{objectFit: "contain"}}
+									style={{objectFit: "cover"}}
 									fill
 									alt={data.image}
 								/>

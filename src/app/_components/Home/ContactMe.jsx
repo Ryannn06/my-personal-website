@@ -12,7 +12,7 @@ const ContactMe = () => {
 					</div>
 					<div className={styles.contact_button_container}>
 						<div className={styles.contact_button}>
-							<Link href="emailto:ryanangelo.delacruz12@gmail.com" className={styles.contact_button_link}>
+							<Link href="mailto:ryanangelo.delacruz12@gmail.com" target="_blank" className={styles.contact_button_link}>
 								<h6>ryanangelo.delacruz12@gmail.com</h6>
 								<Image src="/icons/arrow-right.svg" width="25" height="25" alt="arrow-right.svg" />
 							</Link>
@@ -39,18 +39,19 @@ const ContactMe = () => {
 						<h6>02</h6>
 					</div>
 					<div>
-						<Link href=""><p>Home</p></Link>
-						<Link href=""><p>About me</p></Link>
-						<Link href=""><p>What I do</p></Link>
-						<Link href=""><p>Tools</p></Link>
+						<Link href="/"><p>Home</p></Link>
+						<Link href="#my_works"><p>My Works</p></Link>
+						<Link href="#about_me"><p>About me</p></Link>
+						<Link href="#what_i_do"><p>What I do</p></Link>
+						<Link href="#tools"><p>Tools</p></Link>
 					</div>
 				</div>
 				<div>
 					<h6>03</h6>
 					<div>
-						<Link href=""><p>Linkedin</p></Link>
-						<Link href=""><p>Instagram</p></Link>
-						<Link href=""><p>Github</p></Link>
+						<Link href="https://discord.app/com/users/geloo_c" target="_blank"><p>Discord</p></Link>
+						<Link href="https://www.linkedin.com/in/gelo-oc12"><p>Linkedin</p></Link>
+						<Link href="https://github.com/Ryannn06" target="_blank"><p>Github</p></Link>
 					</div>
 				</div>
 			</div>

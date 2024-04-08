@@ -92,7 +92,7 @@ const Tools = () => {
 	const [ tools, setTools ] = useState(toolsArray)
 
 	return(
-		<div className={styles.tools_container}>
+		<div className={styles.tools_container} id="tools">
 
 			<div>
 				<div>

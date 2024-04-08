@@ -35,7 +35,7 @@ const WhatIDo = () => {
 	const [ whatido, setWhatido] = useState(whatido_array)
 
 	return(
-		<div className={styles.whatido_container}>
+		<div className={styles.whatido_container} id="what_i_do">
 			<div>
 				<h6>03/</h6>
 				<h3>What I do</h3>

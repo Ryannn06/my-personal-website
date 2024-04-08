@@ -26,11 +26,11 @@ const Navbar = () => {
 				<h6>Developer & Programmer<br></br>Based in Philippines</h6>
 			</div>
 			<div className={styles.navbar_extended_links}>
-				<Link href="#"><h6>Home</h6></Link>
+				<Link href="#my_works"><h6>My Works</h6></Link>
 				<Link href="#about_me"><h6>About Me</h6></Link>
-				<Link href="#"><h6>About Me</h6></Link>
-				<Link href="#"><h6>My Projects</h6></Link>
-				<Link href="#"><h6>Contacts</h6></Link>
+				<Link href="#what_i_do"><h6>Services</h6></Link>
+				<Link href="#tools"><h6>Tools</h6></Link>
+				<Link href="#my_contacts"><h6>Contacts</h6></Link>
 			</div>
 			<div className={styles.navbar_button_container}>
 				<button onClick={openNavbar} className={styles.navbar_button}>
@@ -54,11 +54,11 @@ const Navbar = () => {
 						<h6>02</h6>
 						<h4>About me</h4>
 					</Link>
-					<Link href="#my_contacts" onClick={closeNavbar} className={styles.navbar_links}>
+					<Link href="#what_i_do" onClick={closeNavbar} className={styles.navbar_links}>
 						<h6>03</h6>
 						<h4>What I do</h4>
 					</Link>
-					<Link href="#my_contacts" onClick={closeNavbar} className={styles.navbar_links}>
+					<Link href="#tools" onClick={closeNavbar} className={styles.navbar_links}>
 						<h6>04</h6>
 						<h4>Tools</h4>
 					</Link>
