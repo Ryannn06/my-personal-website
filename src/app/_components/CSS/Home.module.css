@@ -145,7 +145,7 @@
 	display: inline-block;
 	overflow-wrap: break-word;
    	word-wrap: break-word; 
-   	word-break: normal;
+   	word-break: break-all;
    	line-break: strict;
    	hyphens: none;
    	max-width: 100%;
