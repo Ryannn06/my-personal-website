@@ -258,13 +258,12 @@
 }
 
 .tools_container > div:nth-child(1){
-	text-align: left;
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	display: flex;
 }
 
 .tools_container > div:nth-child(1) > div {
-	width: 100%;
+	width: 50%;
+	text-align: left;
 }
 
 .tools_container > div:nth-child(2){
@@ -504,6 +503,10 @@
 
 	.invisible_card {
 		display: none;
+	}
+
+	.tools_container > div:nth-child(1) > div {
+		width: 100%;
 	}
 
 	.tools_container > div:nth-child(2){

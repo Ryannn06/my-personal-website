@@ -99,7 +99,6 @@ const Tools = () => {
 					<h6>04/</h6>
 					<h3>Frameworks & Tools I have used</h3>
 				</div>
-				
 			</div>
 			<div>
 				{tools.map( (data, index) => {
