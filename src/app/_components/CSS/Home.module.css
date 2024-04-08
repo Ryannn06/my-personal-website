@@ -317,15 +317,15 @@
 }
 
 .contactme_container > div:nth-of-type(1) {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	display: flex;
+	gap: 2.5rem;
 }
 
 .contactme_container > div:nth-of-type(1) > div:nth-of-type(1) {
 	display: flex;
 	flex-direction: column;
 	gap: 2.5rem;
-
+	width: 100%;
 }
 
 .contact_button_container {
@@ -376,6 +376,10 @@
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 		gap: 2.5rem 1rem;
+	}
+
+	.contactme_container > div:nth-of-type(1) > div:nth-of-type(1) {
+		width: 50%;
 	}
 
 }
