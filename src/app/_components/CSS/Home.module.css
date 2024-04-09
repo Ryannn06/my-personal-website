@@ -472,10 +472,6 @@
 		padding: 2.5rem 2.5rem 2.5rem 2.5rem;
 	}
 
-	.myproject_container {
-		padding: 2.5rem 2.5rem 2.5rem 2.5rem;
-	}
-
 	
 	/*.myproject_container > div:nth-child(2) {
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
