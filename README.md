@@ -1,4 +1,4 @@
-Hello, my name is Gelo. This is my website portfolio built in Next.js and Tailwind CSS deployed in Vercel. You may visit my web portolio [here.](https://gelodelacruz.vercel.app)
+Hello, my name is Gelo. This is my website portfolio built in Next.js and CSS deployed in Vercel. You may visit my web portolio [here.](https://gelodelacruz.vercel.app)
 
 ## Getting Started
 
