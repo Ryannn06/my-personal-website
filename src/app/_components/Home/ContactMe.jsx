@@ -15,7 +15,7 @@ const ContactMe = () => {
 				<div></div>
 			</div>
 			<div className={"row gx-3 gy-5 pt-5"}>
-				<div className={"col-6 col-sm-6 col-md-3"}>
+				<div className={"col-12 col-sm-6 col-md-3"}>
 					<p>Designed and developed by Gelo</p>
 				</div>
 				<div className={"col-6 col-sm-6 col-md-3"}>
