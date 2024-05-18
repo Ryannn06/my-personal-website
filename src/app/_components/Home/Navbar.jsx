@@ -17,58 +17,32 @@ const Navbar = () => {
 	}
 
 	return (
-		<div className={styles.navbar_container}>
-			<div>
-				<h6>Ryan Angelo Dela Cruz</h6>
-			</div>
-			<div className={styles.navbar_center_brand}>
-				<h6>--</h6>
-				<h6>Developer & Programmer<br></br>Based in Philippines</h6>
-			</div>
-			<div className={styles.navbar_extended_links}>
-				<Link href="#my_works"><h6>My Works</h6></Link>
-				<Link href="#about_me"><h6>About Me</h6></Link>
-				<Link href="#what_i_do"><h6>Services</h6></Link>
-				<Link href="#tools"><h6>Tools</h6></Link>
-				<Link href="#my_contacts"><h6>Contacts</h6></Link>
-			</div>
-			<div className={styles.navbar_button_container}>
-				<button onClick={openNavbar} className={styles.navbar_button}>
-					<Image alt="navbar" src="/icons/burger-menu.svg" width="35" height="35" />
-				</button>
-			</div>
+		<nav className={"navbar navbar-expand-lg fixed-top row navbar-dark bg-dark"}>
+		    <div className={"container-fluid"}>
+		        <a className={"navbar-brand text-uppercase"} href="#">Gelo Dela Cruz</a>
+		        <button className={"navbar-toggler"} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+		        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		            <span className={"navbar-toggler-icon"}></span>
+		        </button>
 
-			<div id="navbar_menu" className={styles.navbar_menu}>
-				<div className={styles.navbar_close_button_container}>
-					<button onClick={closeNavbar} className={styles.navbar_close_button}>
-						<Image alt="navbar" className={styles.navbar_button_image} src="/icons/x-close.svg" width="25" height="25" />
-						
-					</button>
-				</div>
-				<div className={styles.navbar_menu_links}>
-					<Link href="#my_works" onClick={closeNavbar} className={styles.navbar_links}>
-						<h6>01</h6>
-						<h4>My works</h4>
-					</Link>
-					<Link href="#about_me" onClick={closeNavbar} className={styles.navbar_links}>
-						<h6>02</h6>
-						<h4>About me</h4>
-					</Link>
-					<Link href="#what_i_do" onClick={closeNavbar} className={styles.navbar_links}>
-						<h6>03</h6>
-						<h4>What I do</h4>
-					</Link>
-					<Link href="#tools" onClick={closeNavbar} className={styles.navbar_links}>
-						<h6>04</h6>
-						<h4>Tools</h4>
-					</Link>
-					<Link href="#my_contacts" onClick={closeNavbar} className={styles.navbar_links}>
-						<h6>05</h6>
-						<h4>Contacts</h4>
-					</Link>
-				</div>
-			</div>
-		</div>
+		        <div className={"collapse navbar-collapse"} id="navbarNav">
+		            <ul className={"navbar-nav ms-auto"}>
+		                <li className={"nav-item"}>
+		                    <a className={"nav-link"} href="">My Works</a>
+		                </li>
+		                <li className={"nav-item"}>
+		                    <a className={"nav-link"} href="">What I Do</a>
+		                </li>
+		                <li className={"nav-item"}>
+		                    <a className={"nav-link"} href="">Services</a>
+		                </li>
+		                <li className={"nav-item"}>
+		                    <a className={"nav-link"} href="#">Contact Me</a>
+		                </li>
+		            </ul>
+		        </div>
+		    </div>
+		</nav>
 		
 	)
 }

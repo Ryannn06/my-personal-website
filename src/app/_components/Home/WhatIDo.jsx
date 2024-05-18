@@ -35,16 +35,16 @@ const WhatIDo = () => {
 	const [ whatido, setWhatido] = useState(whatido_array)
 
 	return(
-		<div className={styles.whatido_container} id="what_i_do">
-			<div>
-				<h6>03/</h6>
-				<h3>What I do</h3>
+		<div className={"my-container"} id="what_i_do">
+			<div className={"row"}>
+				<h4>What I do</h4>
 			</div>
-			<div>
+			<hr></hr>
+			<div className={"row gx-5 gy-5"}>
 				{
 					whatido_array.map((data, index) => {
 						return(
-							<div key={index}>
+							<div className={"col-md-6"} key={index}>
 								<div>
 									<Image src={`/icons/${data.image}`} width="80" height="80" alt={data.image}/>
 								</div>

@@ -1,8 +1,14 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Work_Sans } from 'next/font/google'
+import "bootstrap/dist/css/bootstrap.min.css";
+import ImportBsJS from './bootstrap';
+import './globals.css';
 
-const inter = Work_Sans ({ 
+import Script from 'next/script';
+
+import type { Metadata } from 'next';
+import { DM_Sans } from 'next/font/google';
+
+
+const inter = DM_Sans ({ 
     subsets: ['latin'],
     weight:['300','400','500','700', '900'],
     variable: '--font-spspace-groteskrotesk',
@@ -15,13 +21,20 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({
+
   children,
 }: {
   children: React.ReactNode
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Script 
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossOrigin="anonymous"
+        />
+        <ImportBsJS/>
+        {children}
+      </body>
     </html>
   )
 }

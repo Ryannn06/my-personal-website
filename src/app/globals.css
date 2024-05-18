@@ -85,8 +85,8 @@
 html,
 body {
     max-width: 100vw;
-    background-color: #f1ead4;
-    color: #779ac5;
+    background-color: #000000;
+    color: #ffffff;
 
 }
 
@@ -133,7 +133,7 @@ h6 {
 
 input {
     font-family: inherit;
-    font-size: 1.1rem;
+    font-size: 1rem;
     background: none;
     color: #ffffff;
     border: none;
@@ -142,17 +142,16 @@ input {
 
 p {
     font-size: 1rem;
-    line-height: 1.5rem;
 }
 
 @media only screen and (max-width: 768px) {
    h1 {
-       font-size: 2.986rem;
+       font-size: 2.986rem !important;
        font-weight: 500;
    }
 
    h2 {
-       font-size: 2.488rem;
+       font-size: 2.488rem !important;
        font-weight: 500;
    }
 
@@ -174,6 +173,10 @@ p {
    p {
        font-size: 1rem;
    }
+
+   .my-container {
+       padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+   }
  
 }
 
@@ -183,3 +186,42 @@ p {
         color-scheme: light;
     }
 }
+
+.navbar {
+    padding: .5rem 10rem .5rem 10rem;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff;
+}
+
+.my-container {
+    padding: 5rem 5rem 5rem 5rem;
+}
+
+.image-container {
+    position: relative;
+    height: 50dvh;
+}
+
+.btn-outline-light:hover {
+    color: #000000 !important;
+}
+
+.visible_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    border: 1px solid #ffffff;
+    min-height: 40dvh;
+    border-radius: 25px;
+}
+
+.invisible_card {
+    width: 100%;
+}
+

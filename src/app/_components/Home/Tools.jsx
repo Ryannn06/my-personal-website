@@ -69,18 +69,6 @@ const toolsArray = [
 		title:"MIT App Inventor"
 	},
 	{
-		title:"null", 
-		
-	},
-	{
-		title:"null", 
-		
-	},
-	{
-		title:"null", 
-		
-	},
-	{
 		count: "11",
 		title:"GIT", 
 		
@@ -92,31 +80,31 @@ const Tools = () => {
 	const [ tools, setTools ] = useState(toolsArray)
 
 	return(
-		<div className={styles.tools_container} id="tools">
+		<div className={"my-container"} id="tools">
 
-			<div>
+			<div className={"row pb-5"}>
 				<div>
-					<h6>04/</h6>
-					<h3>Frameworks & Tools I have used</h3>
+					<h4>Frameworks & Tools I have used</h4>
 				</div>
 			</div>
-			<div>
+			<div className={"row gx-2 gy-2"}>
 				{tools.map( (data, index) => {
 					return(
 						data.title != "null" ? (
-							<div className={styles.visible_card} key={index}>
-								<div>
-									<Image src="/icons/bxs-circle.svg" width="12" height="12" alt="bxs-circle.svg" />
-								</div>
-								<div>
-									<h5>{data.title}</h5>
+							<div className={"col-6 col-md-4 col-lg-3"} key={index}>
+								<div className={"visible_card"}>
+									<div>
+										<Image src="/icons/bxs-circle.svg" width="12" height="12" alt="bxs-circle.svg" />
+									</div>
+									<div>
+										<h5>{data.title}</h5>
+									</div>
 								</div>
 								
 							</div>
 						): (
-							<div className={styles.invisible_card} key={index}>
-								
-								
+							<div className={"col-6 col-md-4 col-lg-3"} key={index}>
+								<div className={"invisible_card"}></div>
 							</div>
 						)
 						

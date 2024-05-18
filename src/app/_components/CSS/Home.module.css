@@ -68,28 +68,20 @@
 }
 
 .hero_container {
-	padding: 10rem 10rem 5rem 10rem;
-	display: flex;
-	flex-direction: column;
-	gap: 2.5rem;
+	padding: 5rem 10rem 5rem 10rem;
 }
 
-.hero_container > div:nth-of-type(1) {
+.hero_container > div:nth-of-type(1){
 	display: flex;
 	flex-direction: column;
-	gap: 2.5rem;
+	gap: 1rem;
 }
 
 .hero_container > div:nth-of-type(1) > div:nth-of-type(1){
 	width: 80%;
 }
 
-.hero_container > div:nth-of-type(1) > div:nth-of-type(2) {
-	display: flex;
-	gap: 2.5rem;
-}
-
-.hero_container > div:nth-of-type(1) > div:nth-of-type(2) > div {
+.hero_container > div:nth-of-type(1) > div:nth-of-type(2){
 	width: 50%;
 }
 
@@ -427,10 +419,6 @@
 		display: flex;
 	}
 
-	.hero_container > div:nth-of-type(1) > div:nth-of-type(1){
-		width: 100%;
-	}
-
 	.visible_card {
 		min-height: 35dvh;
 	}
@@ -459,7 +447,7 @@
 		width: 100%;
 	}
 
-	.hero_container > div:nth-of-type(1) > div:nth-of-type(2) > div {
+	.hero_container > div:nth-of-type(1) > div:nth-of-type(2){
 		width: 100%;
 	}
 

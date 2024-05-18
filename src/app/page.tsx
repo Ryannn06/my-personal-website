@@ -10,17 +10,14 @@ import ContactMe from './_components/Home/ContactMe'
 import MyProject from './_components/Home/MyProject'
 import WhatIDo from './_components/Home/WhatIDo'
 
-
 export default function page() {
 	return (
+
 		<main className={styles.main}>
 	  		<div className={styles.container}>
-				<Navbar/>
 				<Hero/>
 				<MyProject/>
 				<AboutMe/>
-				<WhatIDo/>
-				
 				<Tools/>
 				<ContactMe/>
 				{/*
