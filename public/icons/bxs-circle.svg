@@ -15,17 +15,34 @@
   <defs
      id="defs8">
     <linearGradient
+       id="linearGradient826"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop824" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient827"
        inkscape:swatch="solid">
       <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
+         style="stop-color:#2fffff;stop-opacity:0;"
          offset="0"
          id="stop825" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient827"
+       xlink:href="#linearGradient826"
        id="linearGradient829"
+       x1="2"
+       y1="12"
+       x2="22"
+       y2="12"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient827"
+       id="linearGradient828"
        x1="2"
        y1="12"
        x2="22"
@@ -53,5 +70,5 @@
   <path
      d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2z"
      id="path2"
-     style="fill-opacity:1;fill:url(#linearGradient829)" />
+     style="fill-opacity:1.0;fill:url(#linearGradient829);stroke:url(#linearGradient828)" />
 </svg>
