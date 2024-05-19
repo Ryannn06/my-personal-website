@@ -14,6 +14,7 @@ const Hero = () => {
 					<p>My name is Gelo, and I am a full stack web developer with 
 					strong interest to driving simple yet dynamic solutions across my works.</p>
 				</div>
+				
 			</div>
 		</div>
 	)

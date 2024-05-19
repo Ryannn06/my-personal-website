@@ -82,12 +82,13 @@ const Tools = () => {
 	return(
 		<div className={"my-container"} id="tools">
 
-			<div className={"row pb-5"}>
+			<div className={"row"}>
 				<div>
-					<h4>Frameworks & Tools I have used</h4>
+					<h5>Frameworks & Tools I have used</h5>
 				</div>
 			</div>
-			<div className={"row gx-2 gy-2"}>
+			<hr></hr>
+			<div className={"row pt-1 gx-2 gy-2"}>
 				{tools.map( (data, index) => {
 					return(
 						data.title != "null" ? (

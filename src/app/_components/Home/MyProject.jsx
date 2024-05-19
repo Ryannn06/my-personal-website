@@ -1,10 +1,12 @@
 "use client";
 
-import styles from 'src/app/_components/CSS/Home.module.css'
-import Link from 'next/link'
-import Image from 'next/image'
+import styles from 'src/app/_components/CSS/Home.module.css';
+import Link from 'next/link';
+import Image from 'next/image';
 
-import { useEffect, useState } from 'react'
+import { BsArrowUpRight } from "react-icons/bs";
+
+import { useEffect, useState } from 'react';
 
 
 const projectArray = [
@@ -58,7 +60,9 @@ const MyProject = () => {
 								</div>
 								<div className={"col-md-6"}>
 									<Link href={data.github_link}>
-										<h4 className={"text-uppercase"}>{data.title}</h4>
+										<h4 className={"text-uppercase"}>{data.title}
+											<BsArrowUpRight/>
+										</h4>
 									</Link>
 									<p className={"pt-1"}>{data.description}</p>
 								</div>

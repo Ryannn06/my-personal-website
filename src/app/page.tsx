@@ -15,6 +15,7 @@ export default function page() {
 
 		<main className={styles.main}>
 	  		<div className={styles.container}>
+	  			<Navbar/>
 				<Hero/>
 				<MyProject/>
 				<AboutMe/>

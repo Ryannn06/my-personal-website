@@ -82,6 +82,12 @@
     margin: 0;
 }
 
+@media (prefers-color-scheme: light) {
+    html {
+        color-scheme: light;
+    }
+}
+
 html,
 body {
     max-width: 100vw;
@@ -144,6 +150,45 @@ p {
     font-size: 1rem;
 }
 
+.navbar-container {
+    padding: 1.5rem 5rem 1.5rem 5rem;
+}
+
+.my-container {
+    padding: 5rem 5rem 5rem 5rem;
+}
+
+.image-container {
+    position: relative;
+    height: 50dvh;
+}
+
+.btn-outline-light:hover {
+    color: #000000 !important;
+}
+
+.visible_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    border: 1px solid #ffffff;
+    min-height: 40dvh;
+    border-radius: 25px;
+}
+
+.invisible_card {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 992px){
+
+}
+
 @media only screen and (max-width: 768px) {
    h1 {
        font-size: 2.986rem !important;
@@ -178,54 +223,13 @@ p {
        padding: 2.5rem 1.5rem 2.5rem 1.5rem !important;
    }
 
+   .navbar-container {
+       padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+   }
+
    .visible_card {
-        height: 20dvh !important;
+        min-height: 20dvh !important;
    }
  
-}
-
-
-@media (prefers-color-scheme: light) {
-    html {
-        color-scheme: light;
-    }
-}
-
-.navbar {
-    padding: .5rem 10rem .5rem 10rem;
-}
-
-.navbar-brand, .nav-link {
-    color: #ffffff;
-}
-
-.my-container {
-    padding: 5rem 5rem 5rem 5rem;
-}
-
-.image-container {
-    position: relative;
-    height: 50dvh;
-}
-
-.btn-outline-light:hover {
-    color: #000000 !important;
-}
-
-.visible_card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 100%;
-    text-align: left;
-    padding: 1rem;
-    border: 1px solid #ffffff;
-    min-height: 40dvh;
-    border-radius: 25px;
-}
-
-.invisible_card {
-    width: 100%;
 }
 
