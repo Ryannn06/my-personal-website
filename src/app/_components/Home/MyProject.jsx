@@ -29,7 +29,7 @@ const projectArray = [
 	
 	{
 		title: "The paws center",
-		description: "A pet center website built in Nextjs and Firebase",
+		description: "A pet center website built in PHP and MySQL",
 		github_link: "#",
 		bg_color: "#ffd1dc",
 		date_:"2024.05.10"
