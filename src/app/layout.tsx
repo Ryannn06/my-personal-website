@@ -1,5 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import ImportBsJS from './bootstrap';
+
+/**import CustomCursor from './_components/CustomCursor';**/
+
 import './globals.css';
 
 import Script from 'next/script';

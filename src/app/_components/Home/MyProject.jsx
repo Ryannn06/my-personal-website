@@ -59,7 +59,7 @@ const MyProject = () => {
 									<p>{data.date_}</p>
 								</div>
 								<div className={"col-md-6"}>
-									<Link href={data.github_link}>
+									<Link href={data.github_link} className={"link"}>
 										<h4 className={"text-uppercase"}>{data.title}
 											<BsArrowUpRight/>
 										</h4>

@@ -243,3 +243,53 @@ p {
     transform-origin: 0%;
     z-index: 100;
 }
+  
+/**.flare {  
+    position: fixed;  
+    top: 0;  
+    left: 0;  
+    border: 2px solid #ffffff;  
+    border-radius: 50%;  
+    mix-blend-mode: difference;  
+    pointer-events: none;  
+    transform: translate(-50%, -50%);  
+    z-index: 999999 !important;  
+    backdrop-filter: blur(1px); 
+    background-color: black;  
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out;  
+    padding: 10px;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+    min-height: 50px;
+    min-width: 50px;
+}  
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+  
+@media screen and (max-width: 768px) {  
+    .flare {  
+        display: none;  
+        width: 0;  
+        height: 0;  
+        transition: width 0.2s ease-in-out, height 0.2s ease-in-out,  
+        opacity 0.2s ease-in-out;  
+  }  
+}
+  
+.flare.pointer {  
+    display: none;  
+    opacity: 0 !important;  
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out,  
+    opacity 0.2s ease-in-out;  
+}
+
+.link:hover {
+    text-decoration: underline;
+    transition: 0.8s ease-in-out;
+}**/

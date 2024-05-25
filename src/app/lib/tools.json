@@ -1,67 +1,80 @@
 [
 	{
-		"count": "01",
-		"title":"Django Python Web Framework", 
+		"id": 1,
+		"title":"Django Python Web Framework"
 	},
 	{
-		"count": "02",
-		"title":"Next.js React Framework", 
-		
+		"id":2,
+		"title":"Next.js React Framework"
 	},
 	{
-		"title":"null", 
-		
+		"id":3,
+		"title":"null"
 	},
 	{
-		"count": "03",
-		"title":"Hypertext Mark-up Language (HTML)", 
-		
+		"id":4,
+		"title":"PHP"
 	},
 	{
-		"count": "04",
-		"title":"Cascading Style Sheets (CSS)", 
-		
+		"id":5,
+		"title":"Hypertext Mark-up Language (HTML)"
 	},
 	{
-		"title":"null", 
-		
+		"id":6,
+		"title":"null"
 	},
 	{
-		"count": "05",
-		"title":"Javascript", 
-		
+		"id":7,
+		"title":"Cascading Style Sheets (CSS)"
 	},
 	{
-		"count": "06",
-		"title":"Python Programming Language", 
-		
+		"id":8,
+		"title":"Bootstrap CSS Framework"
 	},
 	{
-		"title":"null", 
-		
+		"id":9,
+		"title":"Tailwind"
 	},
 	{
-		"count": "07",
-		"title":"Bootstrap CSS Framework", 
-		
+		"id":10,
+		"title":"Javascript"
 	},
 	{
-		"count": "08",
-		"title":"MySQL RDBMS", 
-		
+		"id":11,
+		"title":"Python Programming"
 	},
 	{
-		"count": "09",
-		"title":"Google Firebase", 
-		
+		"id":12,
+		"title":"null"
 	},
 	{
-		"count": "10",
+		"id":13,
+		"title":"Google Firebase"
+	},
+	{
+		"id":14,
+		"title":"MySQL RDBMS"
+	},
+	{
+		"id":15,
+		"title":"null"
+	},
+	{
+		"id":16,
+		"title":"PHP MyAdmin"
+	},
+	{
+		"id":17,
 		"title":"MIT App Inventor"
 	},
 	{
-		"count": "11",
-		"title":"GIT", 
-		
+		"id":18,
+		"title":"null"
+	},
+	{
+		"id":18,
+		"title":"Github"
 	}
+
+
 ]

@@ -44,7 +44,7 @@ const AboutMe = () => {
 									</div>
 								</div>
 							) : (
-								<div className={"col-md-6"}>
+								<div className={"col-md-6"} key={index}>
 									<h6 className={"text-uppercase pb-2"}>{data.id}</h6>
 									<h6 className={"text-uppercase pb-2"}>{data.title}</h6>
 									<p className={""}>{data.body}</p>
