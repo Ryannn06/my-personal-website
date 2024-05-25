@@ -6,78 +6,14 @@ import Image from 'next/image'
 
 import { useEffect, useState } from 'react'
 
+import tools from 'src/app/lib/tools.json'
 
-const toolsArray = [
-	{
-		count: "01",
-		title:"Django Python Web Framework", 
-	},
-	{
-		count: "02",
-		title:"Next.js React Framework", 
-		
-	},
-	{
-		title:"null", 
-		
-	},
-	{
-		count: "03",
-		title:"Hypertext Mark-up Language (HTML)", 
-		
-	},
-	{
-		count: "04",
-		title:"Cascading Style Sheets (CSS)", 
-		
-	},
-	{
-		title:"null", 
-		
-	},
-	{
-		count: "05",
-		title:"Javascript", 
-		
-	},
-	{
-		count: "06",
-		title:"Python Programming Language", 
-		
-	},
-	{
-		title:"null", 
-		
-	},
-	{
-		count: "07",
-		title:"Bootstrap CSS Framework", 
-		
-	},
-	{
-		count: "08",
-		title:"MySQL RDBMS", 
-		
-	},
-	{
-		count: "09",
-		title:"Google Firebase", 
-		
-	},
-	{
-		count: "10",
-		title:"MIT App Inventor"
-	},
-	{
-		count: "11",
-		title:"GIT", 
-		
-	}
-]
+
+const toolsArray = []
 
 const Tools = () => {
 
-	const [ tools, setTools ] = useState(toolsArray)
+	/**const [ tools, setTools ] = useState(toolsArray)**/
 
 	return(
 		<div className={"my-container"} id="tools">

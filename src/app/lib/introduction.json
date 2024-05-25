@@ -1,0 +1,27 @@
+[
+	{
+		"id":1,
+		"style":"col-md-12",
+		"title":"Introduction",
+		"body":"I am based in the Philippines with specialization in full stack web development. I was born on December 06, 2001. As someone who has calm and thoughtful nature, lies a mind brimming with creativity and bright ideas."
+	},
+	{
+		"id":2,
+		"style":"col-md-6",
+		"title":"Education",
+		"body":"Bachelor of Engineering Technology in Computer Engineering Technology at TUP"
+	},
+	{
+		"id":3,
+		"style":"col-md-6",
+		"title":"Interests",
+		"body":"On my free time, I love listening to music, reading words of affirmation and playing games"
+	},
+	{
+		"id":4,
+		"style":"col-md-6",
+		"title":"As a skykid",
+		"body":"I am a skykid who finds himself helping moths on their dailies and wing hunts, socializing with other skykids for acquaintance and friendship."
+	}
+
+]
