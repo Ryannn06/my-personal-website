@@ -233,3 +233,13 @@ p {
  
 }
 
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: #ffffff;
+    transform-origin: 0%;
+    z-index: 100;
+}

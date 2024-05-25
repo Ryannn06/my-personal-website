@@ -1,6 +1,9 @@
+'use client';
+
 import Image from 'next/image'
 import styles from './page.module.css'
 
+import ProgressBar from './_components/Home/ProgressBar'
 import Navbar from './_components/Home/Navbar'
 import Hero from './_components/Home/Hero'
 import AboutMe from './_components/Home/AboutMe'
@@ -14,7 +17,8 @@ export default function page() {
 	return (
 
 		<main className={styles.main}>
-	  		<div className={styles.container}>
+	  		<div className={""}>
+	  			<ProgressBar/>
 	  			<Navbar/>
 				<Hero/>
 				<MyProject/>
@@ -25,8 +29,6 @@ export default function page() {
 				[]
 				<Parallax/> 
 				*/}
-
-				
 	  		</div>
 		</main>
   	)
