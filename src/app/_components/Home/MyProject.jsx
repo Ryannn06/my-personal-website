@@ -28,11 +28,11 @@ const projectArray = [
 	},
 	
 	{
-		title: "Analysis on Customer Shopping Trend",
+		title: "Customer Shopping Trend",
 		description: "An analysis on Customer Shopping Trend using Python and Kaggle",
 		github_link: "https://www.kaggle.com/code/ryanangelodelacruz/an-analysis-on-customer-shopping-latest-trends",
 		bg_color: "#ffd1dc",
-		date_:"2024.05.10"
+		date_:"2024.12.06"
 	},
 ]
 
