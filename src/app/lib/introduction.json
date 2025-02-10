@@ -3,7 +3,7 @@
 		"id":1,
 		"style":"col-md-12",
 		"title":"Introduction",
-		"body":"I am based in the Philippines with specialization in full stack web development. I was born on December 06, 2001. As someone who has calm and thoughtful nature, lies a mind brimming with creativity and bright ideas."
+		"body":"I am based in the Philippines with knack of programming and analytics. I was born on December 06, 2001. If I were to describe myself in one word, it would be 'inquisitive'. I am a very curious person. I love new discovery and learning the unknown."
 	},
 	{
 		"id":2,
@@ -15,13 +15,13 @@
 		"id":3,
 		"style":"col-md-6",
 		"title":"Interests",
-		"body":"On my free time, I love listening to music, reading words of affirmation and playing games"
+		"body":"I enjoy solving real-world problems with data, exploring new technologies, and working in personal projects."
 	},
 	{
 		"id":4,
 		"style":"col-md-6",
-		"title":"As a skykid",
-		"body":"I am a skykid who finds himself helping moths on their dailies and wing hunts, socializing with other skykids for acquaintance and friendship."
+		"title":"Personal Philosophy",
+		"body":"I believe in continous learning but also in taking breaks -- spending time with my cats, playing games, or exploring new things."
 	}
 
 ]
