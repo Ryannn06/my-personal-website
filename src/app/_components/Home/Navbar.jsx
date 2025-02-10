@@ -23,7 +23,7 @@ const Navbar = () => {
 					<h6>[ Gelo Dela Cruz ]</h6>
 				</div>
 				<div>
-					<h6>[ Web Developer, Programmer ]</h6>
+					<h6>[ Analyst, Programmer ]</h6>
 				</div>
 				<div>
 					<h6>[ Dec. 06, 2001 ]</h6>

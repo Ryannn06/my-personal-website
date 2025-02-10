@@ -39,9 +39,10 @@ const ContactMe = () => {
 						<h6 className={"col-md-2"}>02</h6>
 						<div className={"col-md-10"}>
 							<ul className={"list-unstyled"}>
-								<li><Link href="https://discord.com/users/geloo_c" target="_blank"><p>Discord</p></Link></li>
 								<li><Link href="https://www.linkedin.com/in/gelo-oc12" target="_blank"><p>Linkedin</p></Link></li>
 								<li><Link href="https://github.com/Ryannn06" target="_blank"><p>Github</p></Link></li>
+								<li><Link href="https://public.tableau.com/app/profile/ryan.angelo.dela.cruz/vizzes" target="_blank"><p>Tableau Public</p></Link></li>
+								<li><Link href="https://www.kaggle.com/ryanangelodelacruz/code" target="_blank"><p>Kaggle</p></Link></li>
 							</ul>
 						</div>
 					</div>
