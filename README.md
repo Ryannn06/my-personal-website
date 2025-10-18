@@ -2,7 +2,12 @@ Hello, my name is Gelo. This is my website portfolio built in Next.js and CSS de
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
