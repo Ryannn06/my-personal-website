@@ -30,5 +30,18 @@
     "eslint-config-next": "13.5.4",
     "postcss": "^8.4.35",
     "typescript": "^5"
-  }
+  },
+  "description": "Hello, my name is Gelo. This is my website portfolio built in Next.js and CSS deployed in Vercel. You may visit my web portolio [here.](https://gelodelacruz.vercel.app)",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryannn06/my-personal-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryannn06/my-personal-website/issues"
+  },
+  "homepage": "https://github.com/Ryannn06/my-personal-website#readme"
 }
