@@ -2,25 +2,25 @@
 	{
 		"id":1,
 		"style":"col-md-12",
-		"title":"Introduction",
-		"body":"I am based in the Philippines with knack of programming and analytics. I was born on December 06, 2001. If I were to describe myself in one word, it would be 'inquisitive'. I am a very curious person. I love new discovery and learning the unknown."
+		"title":"> I am a Data Analyst & Programmer",
+		"body":"Based in the Philippines, passionate about programming and analytics."
 	},
 	{
 		"id":2,
 		"style":"col-md-6",
-		"title":"Education",
-		"body":"Bachelor of Engineering Technology in Computer Engineering Technology at TUP"
+		"title":"> My Education",
+		"body":"Bachelor of Engineering Technology in Computer Engineering Technology at TUP."
 	},
 	{
 		"id":3,
 		"style":"col-md-6",
-		"title":"Interests",
-		"body":"I enjoy solving real-world problems with data, exploring new technologies, and working in personal projects."
+		"title":"> Interesting Fact About Me",
+		"body":"Just someone who enjoys coding, working with data and learning new things."
 	},
 	{
 		"id":4,
 		"style":"col-md-6",
-		"title":"Personal Philosophy",
+		"title":"> My Personal Philosophy",
 		"body":"I believe in continous learning but also in taking breaks -- spending time with my cats, playing games, or exploring new things."
 	}
 

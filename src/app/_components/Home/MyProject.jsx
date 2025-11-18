@@ -11,11 +11,11 @@ import { useEffect, useState } from 'react';
 
 const projectArray = [
 	{
-		title: "Analysis of Deped Schools Masterlist",
+		title: "Analysis of Deped Masterlist",
 		description: "A SQL analysis and Power BI dashboard on the DepEd Schools Masterlist 64k+ dataset",
 		github_link: "https://github.com/Ryannn06/SQL-Case-Study-on-DepEd-Schools-Masterlist",
 		bg_color: "#add0b3",
-		date_:"2025.02.07",
+		date_:"2025.11.16",
 		image:"1.png",
 		badge: ["Python", "PostgreSQL", "Power BI"]
 	},
@@ -72,7 +72,7 @@ const MyProject = () => {
 							<hr></hr>
 							<div className={"row pt-1"}>
 								<div className={"col-md-6"}>
-									<p>{data.date_}</p>
+									<p className={"text-muted"}>{data.date_}</p>
 								</div>
 								<div className={"col-md-6"}>
 									<Link href={data.github_link} className={"link"}>
@@ -80,12 +80,12 @@ const MyProject = () => {
 											<BsArrowUpRight/>
 										</h4>
 									</Link>
-									<p className={"pt-1"}>{data.description}</p>
 									{data.badge && data.badge.map((b, i) => (
 										<span key={i} className="badge bg-light text-dark me-2">
 											{b}
 										</span>
                   					))}
+									<p className={"pt-3 text-muted"}>{data.description}</p>
 								</div>
 								
 							</div>

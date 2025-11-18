@@ -11,10 +11,10 @@ import type { Metadata } from 'next';
 import { DM_Sans } from 'next/font/google';
 
 
-const inter = DM_Sans ({ 
+const font = DM_Sans ({ 
     subsets: ['latin'],
     weight:['300','400','500','700', '900'],
-    variable: '--font-spspace-groteskrotesk',
+    variable: '--font-dm-sans',
     display: 'swap',
 })
 
@@ -30,7 +30,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={font.className}>
         
         <ImportBsJS/>
         {children}

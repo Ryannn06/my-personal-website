@@ -6,22 +6,19 @@ import { BsArrowUpRight } from "react-icons/bs";
 
 const ContactMe = () => {
 	return(
-		<div className={"my-container"} id="my_contacts">
+		<div className={"my-container pb-3"} id="my_contacts">
 			<div className={"row pb-5"}>
 				<div className={"col-md-6"}>
 					<h2 className={"pb-3"}>The best way to reach me is via email</h2>
 					<Link href="mailto:ryanangelo.delacruz12@gmail.com" target="_blank">
-						<h6 className={"text-decoration-underline text-uppercase"}>drop me a line <BsArrowUpRight/> 
+						<h6 className={"btn btn-light text-dark fw-bold"}>Drop me a line <BsArrowUpRight/> 
 						</h6>
 					</Link>
 				</div>
 				<div></div>
 			</div>
-			<div className={"row gx-3 gy-5 pt-5"}>
-				<div className={"col-12 col-md-3"}>
-					<p>Designed and developed by Gelo</p>
-				</div>
-				<div className={"col-6 col-md-3"}>
+			<div className={"row gx-3 gy-3 pt-4 text-muted"}>
+				<div className={"col-6 col-md-4"}>
 					<div className={"row"}>
 						<div className={"col-md-2"}>
 							<h6>01</h6>
@@ -29,12 +26,11 @@ const ContactMe = () => {
 						<div className={"col-md-10"}>
 							<ul className={"list-unstyled"}>
 								<li><p>Cavite, Philippines</p></li>
-								<li><p>(+63)9692935578</p></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-				<div className={"col-6 col-md-3"}>
+				<div className={"col-6 col-md-4"}>
 					<div className={"row"}>
 						<h6 className={"col-md-2"}>02</h6>
 						<div className={"col-md-10"}>
@@ -47,7 +43,7 @@ const ContactMe = () => {
 						</div>
 					</div>
 				</div>
-				<div className={"col-6 col-md-3"}>
+				<div className={"col-6 col-md-4"}>
 					<div className={"row"}>
 						<div className={"col-md-2"}>
 							<h6>03</h6>
@@ -62,6 +58,10 @@ const ContactMe = () => {
 							</ul>							
 						</div>
 					</div>
+				</div>
+				<div className={"col-md-12 text-center pb-0 pt-0"}>
+					<hr></hr>
+					<p className="fst-italic">Designed and developed by Gelo</p>
 				</div>
 			</div>
 		</div>

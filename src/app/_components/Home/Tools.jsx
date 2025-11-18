@@ -34,7 +34,7 @@ const Tools = () => {
 										<Image src="/icons/bxs-circle.svg" width="12" height="12" alt="bxs-circle.svg" />
 									</div>
 									<div>
-										<h5>{data.title}</h5>
+										<h6>{data.title}</h6>
 									</div>
 								</div>
 								

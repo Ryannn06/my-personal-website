@@ -11,7 +11,7 @@ const Hero = () => {
 					turning data into <i>i</i>nsights</h1>
 				</div>
 				<div className={"col-sm-12 col-md-5 col-lg-5 mb-3"}>
-					<p>My name is Gelo, and I am an analyst & programmer with 
+					<p className={"text-muted"}>My name is Gelo, and I am an analyst & programmer with 
 					strong interest to driving simple yet meaningful solutions across my works.</p>
 				</div>
 				
