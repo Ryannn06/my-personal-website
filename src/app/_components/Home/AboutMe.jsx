@@ -20,7 +20,6 @@ const AboutMe = () => {
 			<hr></hr>
 			<div className={"row pt-1"}>
 				<div className={"col-md-12 col-lg-3"}>
-					
 				</div>
 				<div className={"col-md-12 col-lg-9"}>
 					<motion.div 
@@ -29,10 +28,10 @@ const AboutMe = () => {
 						transition={{ duration: 0.3 }}
 						viewport={{once:true}}**/
 						className={"pb-5"}>
-						<h2>Hi, you can call me Gelo /</h2>
+						<h2>Hello, kumusta? /</h2>
 					</motion.div>
 					
-					<div className={"row pt-5 gy-5 gx-5"}>
+					<div className={"row pt-3 gy-5 gx-5"}>
 					{ introduction.map((data, index) => {
 						return(
 							data.id == 1 ? (

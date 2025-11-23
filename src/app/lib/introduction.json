@@ -2,25 +2,25 @@
 	{
 		"id":1,
 		"style":"col-md-12",
-		"title":"> I am a Data Analyst & Programmer",
-		"body":"Based in the Philippines, passionate about programming and analytics."
+		"title":"Introduction",
+		"body":"With 2+ years of experience in data-related works and projects, I enjoy turning raw data into meaningful insights. "
 	},
 	{
 		"id":2,
 		"style":"col-md-6",
-		"title":"> My Education",
+		"title":"Education",
 		"body":"Bachelor of Engineering Technology in Computer Engineering Technology at TUP."
 	},
 	{
 		"id":3,
 		"style":"col-md-6",
-		"title":"> Interesting Fact About Me",
+		"title":"Interesting Fact About Me",
 		"body":"Just someone who enjoys coding, working with data and learning new things."
 	},
 	{
 		"id":4,
 		"style":"col-md-6",
-		"title":"> My Personal Philosophy",
+		"title":"Personal Philosophy",
 		"body":"I believe in continous learning but also in taking breaks -- spending time with my cats, playing games, or exploring new things."
 	}
 
