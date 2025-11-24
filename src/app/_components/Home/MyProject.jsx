@@ -11,6 +11,13 @@ import { useEffect, useState } from 'react';
 
 const projectArray = [
 	{
+		title: "Analysis of Tourist Arrivals in PHL",
+		description: "An analysis on tourist arrivals in the Philippines using the official data from DOTr",
+		github_link: "https://github.com/Ryannn06/Analysis-of-Tourist-Arrivals-in-the-Philippines-2023",
+		date_:"2025.11.24",
+		badge: ["Python", "Pandas", "SQL"]
+	},
+	{
 		title: "Analysis of Grade 6 NAT Results",
 		description: "A Python analysis on the DepEd NAT MPS Results, SY 2023-2024",
 		github_link: "https://github.com/Ryannn06/Analysis-of-Grade-6-National-Achievement-Test-MPS-2023-2024",
@@ -37,13 +44,6 @@ const projectArray = [
 		github_link: "https://www.kaggle.com/code/ryanangelodelacruz/mobile-app-screen-time-eda-mla",
 		date_:"2025.01.06",
 		badge: ["Python", "Pandas", "Seaborn", "Scikit-learn"]
-	},
-	{
-		title: "Spotify Streams 2024",
-		description: "A Tableau dashboard, exploring Spotify's 2024 most streamed tracks and albums",
-		github_link: "https://public.tableau.com/views/Spotify_Streams_17353873277910/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
-		date_:"2024.12.28",
-		badge: ["Tableau"]
 	},
 	{
 		title: "Thesis Archive system",
