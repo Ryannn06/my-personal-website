@@ -29,7 +29,7 @@ const projectArray = [
 		description: "A SQL analysis and Power BI dashboard on the DepEd Schools Masterlist 64k+ dataset",
 		github_link: "https://github.com/Ryannn06/SQL-Case-Study-on-DepEd-Schools-Masterlist",
 		date_:"2025.11.16",
-		badge: ["Python", "PostgreSQL", "Power BI"]
+		badge: ["Python", "PostgreSQL", "Power BI","DAX"]
 	},
 	{
 		title: "Uber Customer Reviews 2024",
